@@ -1,0 +1,287 @@
+/* All */
+
+
+
+
+html {
+    font-family: 'Roboto', 'serif';
+}
+
+body {
+    background-color: black;
+    max-width: 150rem; 
+    min-width: 390px;
+    margin: 0 auto;
+    color: white;
+
+}
+
+
+.container {
+    padding-right: 3rem;
+    padding-left: 3rem;
+    position: relative;
+    text-align: left;
+    padding-bottom: 0;
+    margin: 0 auto;
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+h1 {
+    font-size: 3.5rem;
+}
+
+h4 {
+    text-align: center;
+}
+
+.top-padding {
+    margin-top: 6rem;
+    font-weight: 500;
+}
+
+.home-top-padding {
+    margin-top: 10rem;
+}
+
+
+
+
+/* header */
+
+
+header {
+    height: 3.5rem;
+    width: 100%;
+    position: fixed;
+    display: inline-flex;
+    align-items: center;
+    z-index: 3;
+    background-color: #ffffff;
+    overflow: hidden;
+    top: 0;
+    left: 0;
+    border-bottom: black solid 1px;
+}
+
+.social-img {
+    padding-top: .125rem;
+}
+
+.guide {
+    list-style-type: none;
+    display: inline-flex;
+}
+
+.banner-menu {
+    position: absolute;
+    right: .5rem;
+    padding-top: .5rem;
+}
+
+.logo {
+    height: 3rem;
+    position: relative;
+    left: 1rem;
+    margin-top: .5rem;
+}
+
+.nav-btn {
+    font-size: 1.5rem;
+    text-decoration: none;
+    margin-right: 1.75rem;
+    color: black;
+}
+
+.nav-btn:hover {
+    text-decoration: underline;
+    color: gray;
+}
+
+
+
+/* header */
+
+
+/* footer */
+
+
+.footer {
+    z-index: 1;
+    position: fixed;
+    bottom: 0;
+    font-size: .65rem;
+    text-align: center;
+    color: #ffffff;
+    left: 0;
+    right: 0; 
+}
+
+.footer-grid-container {
+    padding-top: 3rem;
+    text-align: center;
+    padding-right: 3rem;
+    list-style-type: none;
+    text-decoration: none;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    gap: 0 0;
+    grid-template-areas:
+      "footer-info";
+}
+
+/* footer */
+
+
+
+
+/* All */
+
+
+
+
+/* index.html */
+
+
+
+
+#learn-link {
+    color: #D0312D;
+    text-decoration: none;
+}
+
+#learn-link:hover {
+    color: #D0312D;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+#learn-link:focus {
+    color: #BC544b;
+    text-decoration: underline;
+}
+
+
+
+
+/* index.html */
+
+
+/* about.html */
+
+
+
+
+.about-info {
+    font-size: .9rem;
+    width: 50%;
+    line-height: 1.25rem;
+}
+
+
+
+
+/* about.html */
+
+
+/* work.html */
+
+
+
+
+.mySlides {
+    display: none;
+    max-width: 700px;
+}
+
+.w3-display-container {
+    font-family: 'Roboto', 'serif';
+}
+  
+
+
+
+    /* work.html */
+
+    /* contact.html */
+
+
+    
+
+.form-container {  
+    width: 100%;
+    margin: 0 auto;
+    text-align: left;
+}
+
+#myform {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    padding-right: 3rem;
+}
+
+.form-element {
+    padding-top: 1rem;
+}
+
+input {
+    width: 15.75rem;
+    height: 1.75rem;
+    font-size: 1.25rem;
+    background-color: white;
+}
+
+label {
+    font-size: 1.25rem;
+}
+
+textarea  {
+    font-size: 1.25rem;
+    max-width: 500px;
+    font-family: 'Roboto', 'sans-serif';
+    background-color: white;
+}
+
+.form-field {
+    margin-top: .5rem;    
+}
+
+.contact-btn-container {
+    margin-bottom: 2rem;
+}
+
+input:focus {
+    outline-color: #D0312D;
+}
+
+textarea:focus {
+    outline-color: #D0312D;
+}
+
+.inverse-contact-btn {
+    margin-top: 2rem;
+    padding: 1rem;
+    font-size: 1.5rem;
+    background-color: gray;
+    color: black;
+    border: solid white 3px;
+}
+
+.inverse-contact-btn:hover {
+    cursor: pointer;
+    background-color: lightgray;
+    border: solid gray 3px;
+}
+
+.inverse-contact-btn:focus {
+    outline-color: #D0312D;
+}
+
+.inverse-contact-btn:active {
+    background-color: #696969;
+    border: solid lightgray 3px;
+}
