@@ -231,8 +231,9 @@ header {
 input {
     width: 15.75rem;
     height: 1.75rem;
-    font-size: 1.25rem;
+    font-size: 1.125rem;
     background-color: white;
+    border-radius: .5rem;
 }
 
 label {
@@ -240,10 +241,11 @@ label {
 }
 
 textarea  {
-    font-size: 1.25rem;
+    font-size: 1.125rem;
     max-width: 500px;
     font-family: 'Roboto', 'sans-serif';
     background-color: white;
+    border-radius: 0.5rem;
 }
 
 .form-field {
@@ -269,6 +271,7 @@ textarea:focus {
     background-color: gray;
     color: black;
     border: solid white 3px;
+    border-radius: 0.5rem;
 }
 
 .inverse-contact-btn:hover {
