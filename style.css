@@ -18,6 +18,7 @@ body {
 
 
 .container {
+    z-index: 5;
     padding-right: 3rem;
     padding-left: 3rem;
     position: relative;
