@@ -2,7 +2,6 @@
 
 
 
-
 html {
     font-family: 'Roboto', 'serif';
 }
@@ -190,7 +189,9 @@ header {
 /* work.html */
 
 
-
+#takenOnDeck {
+    margin-top: 2.55rem;
+}
 
 .mySlides {
     display: none;
