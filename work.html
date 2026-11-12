@@ -18,7 +18,7 @@
         <link rel="canonical" href="https://www.johnparrett.com">
         <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
         <link rel="icon" type="image/svg" href="./assets/jp.png">   
-        <title>John Parrett | Web Developer</title>
+        <title>John Parrett | My Work</title>
     </head>
     <body>
         <div class="container">
@@ -26,14 +26,7 @@
                 <div>
                     <img class="logo" src="./assets/jp.png" alt="JP" />            
                 </div>
-                <nav class="banner-menu">
-                    <ul class="guide">
-                        <li><a class="nav-btn" href="https://www.linkedin.com/in/john-parrett-779915a2/" target="_blank"><img class="social-img" src="https://img.icons8.com/android/25/000000/linkedin.png" alt="LinkedIn"/></a></li>
-                        <li><a class="nav-btn" href="index.html">Home</a></li>
-                        <li><a class="nav-btn" href="about.html">About</a></li>
-                        <li><a class="nav-btn" href="contact.html">Contact</a></li>
-                    </ul>
-                </nav>
+                <div id="nav-container"></div>
             </header>
             <h1 class="top-padding">Work.</h1>
             <div class="w3-content w3-display-container">
@@ -105,6 +98,13 @@
             x[slideIndex-1].style.display = "block";  
             }
 
+            // Load nav.html into nav-container
+            fetch('nav.html')
+                .then(response => response.text())
+                .then(data => {
+                    document.getElementById('nav-container').innerHTML = data;
+                })
+                .catch(error => console.error('Error loading nav:', error));
         </script>
         
     </body>
