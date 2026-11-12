@@ -1,0 +1,4 @@
+https://johnparrett.github.io/portfolio
+https://johnparrett.github.io/portfolio/about.html
+https://johnparrett.github.io/portfolio/work.html
+https://johnparrett.github.io/portfolio/contact.html
