@@ -3,7 +3,7 @@ User-agent: *
 Allow: /
 
 # Point to sitemap
-Sitemap: https://www.johnparrett.com/sitemap.xml
+Sitemap: https://johnparrett.github.io/portfolio/sitemap.xml
 
 # Crawl delay (optional - prevents server overload)
 Crawl-delay: 1
