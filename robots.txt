@@ -1,0 +1,9 @@
+# Allow all search engines to crawl the site
+User-agent: *
+Allow: /
+
+# Point to sitemap
+Sitemap: https://www.johnparrett.com/sitemap.xml
+
+# Crawl delay (optional - prevents server overload)
+Crawl-delay: 1
