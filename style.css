@@ -3,7 +3,7 @@
 
 
 html {
-    font-family: 'Roboto', 'serif';
+    font-family: 'Roboto', serif;
 }
 
 body {
@@ -31,10 +31,6 @@ body {
 
 h1 {
     font-size: 3.5rem;
-}
-
-h4 {
-    text-align: center;
 }
 
 .top-padding {

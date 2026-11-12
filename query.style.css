@@ -1,19 +1,4 @@
 @media only screen and (max-width: 1000px) {
-    .build-container {
-        padding-right: 3rem;
-        margin: 0 auto;
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-        grid-template-rows: 1fr 1fr 1fr;
-        gap: 1rem 3rem;
-        grid-template-areas:
-          "the-paperweights cantstopcbus cbusremembers"
-          "evan-blog hillside contractor"
-          "under-construction . .";
-      }
-}
-
-@media only screen and (max-width: 875px) {
     .about-info {
         font-size: .9rem;
         width: 80%;
@@ -21,9 +6,11 @@
     }
 }
 
-@media only screen and (max-width: 750px) {
-    .build-img {
-        width: 10rem;
+@media only screen and (max-width: 875px) {
+    .about-info {
+        font-size: .9rem;
+        width: 80%;
+        line-height: 1.25rem;
     }
 }
 
@@ -36,29 +23,15 @@
 }
 
 @media only screen and (max-width: 525px) {
-    .build-img {
-        width: 9rem;
-        
+    .about-info {
+        width: 80%;
+        min-width: 300px;
+        padding-right: 3rem;
     }
 
-    .build-container {
-        text-align: center;
-        padding-right: 3rem;
-        margin: 0 auto;
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        grid-template-rows: 1fr 1fr 1fr 1fr;
-        gap: 1rem 3rem;
-        grid-template-areas:
-          "the-paperweights cantstopcbus"
-          "cbusremembers evan-blog"
-          "hillside contractor"
-          "under-construction .";
-      }
-
-      #title {
-          font-size: 3rem;
-      }
+    #title {
+        font-size: 3rem;
+    }
 }
 
 @media only screen and (max-width: 510px) {
@@ -84,10 +57,6 @@
 
     #title {
         font-size: 2.5rem;
-    }
-
-    .form-container {  
-        text-align: center;
     }
 }
 
